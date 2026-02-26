@@ -1,0 +1,13 @@
+{
+  "title": "Tip Calculator",
+  "metaDescription": "Calculate tip amount and split the bill between people quickly and easily.",
+  "billAmount": "Bill Amount",
+  "tipPercentage": "Tip Percentage",
+  "numberOfPeople": "Number of People",
+  "tipAmount": "Tip Amount",
+  "totalAmount": "Total Amount",
+  "perPerson": "Per Person",
+  "tipPerPerson": "Tip Per Person",
+  "totalPerPerson": "Total Per Person",
+  "custom": "Custom"
+}

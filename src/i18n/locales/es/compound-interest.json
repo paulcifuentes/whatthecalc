@@ -1,0 +1,21 @@
+{
+  "title": "Calculadora de Interés Compuesto",
+  "metaDescription": "Calcula el interés compuesto y observa cómo crecen tus inversiones con el tiempo mediante un gráfico interactivo.",
+  "principal": "Inversión inicial",
+  "monthlyContribution": "Aporte mensual",
+  "annualRate": "Tasa de interés anual (%)",
+  "years": "Período de inversión (años)",
+  "compoundFrequency": "Frecuencia de capitalización",
+  "annually": "Anual",
+  "semiAnnually": "Semestral",
+  "quarterly": "Trimestral",
+  "monthly": "Mensual",
+  "daily": "Diario",
+  "futureValue": "Valor futuro",
+  "totalContributions": "Aportes totales",
+  "totalInterest": "Intereses ganados",
+  "chartTitle": "Crecimiento a lo largo del tiempo",
+  "chartBalance": "Saldo",
+  "chartContributions": "Aportes",
+  "year": "Año"
+}

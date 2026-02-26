@@ -1,0 +1,15 @@
+{
+  "title": "年齢計算",
+  "metaDescription": "年齢を年・月・日で正確に計算。次の誕生日まであと何日かも確認できます。",
+  "dateOfBirth": "生年月日",
+  "calculateAsOf": "計算基準日",
+  "yourAge": "あなたの年齢",
+  "years": "年",
+  "months": "ヶ月",
+  "days": "日",
+  "nextBirthday": "次の誕生日",
+  "daysUntil": "日後が次の誕生日です",
+  "totalDays": "生きた日数",
+  "totalWeeks": "生きた週数",
+  "totalMonths": "生きた月数"
+}

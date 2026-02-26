@@ -1,0 +1,13 @@
+{
+  "title": "Calculateur de pourboire",
+  "metaDescription": "Calculez le montant du pourboire et partagez facilement l\u2019addition entre plusieurs personnes.",
+  "billAmount": "Montant de l\u2019addition",
+  "tipPercentage": "Pourcentage du pourboire",
+  "numberOfPeople": "Nombre de personnes",
+  "tipAmount": "Montant du pourboire",
+  "totalAmount": "Montant total",
+  "perPerson": "Par personne",
+  "tipPerPerson": "Pourboire par personne",
+  "totalPerPerson": "Total par personne",
+  "custom": "Personnalis\u00e9"
+}

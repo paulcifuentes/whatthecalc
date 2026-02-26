@@ -1,0 +1,23 @@
+{
+  "title": "Calculadora de Calorías",
+  "metaDescription": "Estima tus necesidades calóricas diarias usando la ecuación de Mifflin-St Jeor según tu edad, género, altura, peso y nivel de actividad.",
+  "age": "Edad",
+  "gender": "Género",
+  "male": "Masculino",
+  "female": "Femenino",
+  "height": "Altura",
+  "weight": "Peso",
+  "activityLevel": "Nivel de actividad",
+  "sedentary": "Sedentario (poco o nada de ejercicio)",
+  "light": "Ligeramente activo (1-3 días/semana)",
+  "moderate": "Moderadamente activo (3-5 días/semana)",
+  "active": "Activo (6-7 días/semana)",
+  "veryActive": "Muy activo (ejercicio intenso diario)",
+  "bmr": "Tasa Metabólica Basal (TMB)",
+  "maintenance": "Calorías de mantenimiento",
+  "mildLoss": "Pérdida de peso leve (0.25 kg/semana)",
+  "weightLoss": "Pérdida de peso (0.5 kg/semana)",
+  "mildGain": "Aumento de peso leve (0.25 kg/semana)",
+  "weightGain": "Aumento de peso (0.5 kg/semana)",
+  "calPerDay": "cal/día"
+}

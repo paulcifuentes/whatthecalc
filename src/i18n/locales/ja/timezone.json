@@ -1,0 +1,27 @@
+{
+  "title": "タイムゾーン変換",
+  "metaDescription": "世界各地のタイムゾーン間で時刻を瞬時に変換できます。",
+  "fromZone": "変換元のタイムゾーン",
+  "toZone": "変換先のタイムゾーン",
+  "time": "時刻",
+  "date": "日付",
+  "convertedTime": "変換後の時刻",
+  "commonZones": {
+    "UTC": "UTC",
+    "America/New_York": "ニューヨーク (EST/EDT)",
+    "America/Chicago": "シカゴ (CST/CDT)",
+    "America/Denver": "デンバー (MST/MDT)",
+    "America/Los_Angeles": "ロサンゼルス (PST/PDT)",
+    "Europe/London": "ロンドン (GMT/BST)",
+    "Europe/Paris": "パリ (CET/CEST)",
+    "Europe/Berlin": "ベルリン (CET/CEST)",
+    "Asia/Tokyo": "東京 (JST)",
+    "Asia/Shanghai": "上海 (CST)",
+    "Asia/Kolkata": "コルカタ (IST)",
+    "Asia/Dubai": "ドバイ (GST)",
+    "Australia/Sydney": "シドニー (AEST/AEDT)",
+    "Pacific/Auckland": "オークランド (NZST/NZDT)",
+    "America/Sao_Paulo": "サンパウロ (BRT)",
+    "America/Mexico_City": "メキシコシティ (CST/CDT)"
+  }
+}

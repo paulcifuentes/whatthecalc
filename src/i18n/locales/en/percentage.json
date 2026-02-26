@@ -1,0 +1,18 @@
+{
+  "title": "Percentage Calculator",
+  "metaDescription": "Calculate percentages easily — find X% of Y, percentage increase/decrease, and percentage difference.",
+  "whatIsXPercentOfY": "What is X% of Y?",
+  "percent": "Percent",
+  "of": "of",
+  "result": "Result",
+  "xIsWhatPercentOfY": "X is what % of Y?",
+  "value": "Value",
+  "total": "Total",
+  "percentageResult": "Percentage",
+  "percentChange": "Percentage Change",
+  "from": "From",
+  "to": "To",
+  "change": "Change",
+  "increase": "increase",
+  "decrease": "decrease"
+}

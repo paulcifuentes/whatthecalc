@@ -1,0 +1,21 @@
+{
+  "title": "Compound Interest Calculator",
+  "metaDescription": "Calculate compound interest and see how your investments grow over time with an interactive chart.",
+  "principal": "Initial Investment",
+  "monthlyContribution": "Monthly Contribution",
+  "annualRate": "Annual Interest Rate (%)",
+  "years": "Investment Period (years)",
+  "compoundFrequency": "Compound Frequency",
+  "annually": "Annually",
+  "semiAnnually": "Semi-Annually",
+  "quarterly": "Quarterly",
+  "monthly": "Monthly",
+  "daily": "Daily",
+  "futureValue": "Future Value",
+  "totalContributions": "Total Contributions",
+  "totalInterest": "Total Interest Earned",
+  "chartTitle": "Growth Over Time",
+  "chartBalance": "Balance",
+  "chartContributions": "Contributions",
+  "year": "Year"
+}

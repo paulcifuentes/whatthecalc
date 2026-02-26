@@ -1,0 +1,42 @@
+{
+  "percentage": {
+    "name": "百分比计算器",
+    "description": "计算百分比、增幅、降幅和差异"
+  },
+  "bmi": {
+    "name": "BMI 计算器",
+    "description": "根据身高和体重计算您的身体质量指数"
+  },
+  "calories": {
+    "name": "卡路里计算器",
+    "description": "根据您的活动水平估算每日所需热量"
+  },
+  "age": {
+    "name": "年龄计算器",
+    "description": "精确计算年龄及距下次生日的天数"
+  },
+  "compound-interest": {
+    "name": "复利计算器",
+    "description": "查看您的投资如何随时间增长"
+  },
+  "gpa": {
+    "name": "GPA 计算器",
+    "description": "计算您的累计平均绩点"
+  },
+  "tip": {
+    "name": "小费计算器",
+    "description": "计算小费并在多人之间分摊账单"
+  },
+  "units": {
+    "name": "单位转换器",
+    "description": "在长度、重量、体积和温度之间进行转换"
+  },
+  "timezone": {
+    "name": "时区转换器",
+    "description": "在不同时区之间转换时间"
+  },
+  "cooking": {
+    "name": "烹饪换算器",
+    "description": "在杯、汤匙、毫升等计量单位之间进行转换"
+  }
+}

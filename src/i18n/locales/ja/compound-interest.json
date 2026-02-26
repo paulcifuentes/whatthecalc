@@ -1,0 +1,21 @@
+{
+  "title": "複利計算",
+  "metaDescription": "複利を計算し、インタラクティブなグラフで投資の成長を確認しましょう。",
+  "principal": "初期投資額",
+  "monthlyContribution": "毎月の積立額",
+  "annualRate": "年利率（%）",
+  "years": "投資期間（年）",
+  "compoundFrequency": "複利の計算頻度",
+  "annually": "年1回",
+  "semiAnnually": "半年に1回",
+  "quarterly": "四半期に1回",
+  "monthly": "毎月",
+  "daily": "毎日",
+  "futureValue": "将来価値",
+  "totalContributions": "積立総額",
+  "totalInterest": "獲得利息合計",
+  "chartTitle": "資産の推移",
+  "chartBalance": "残高",
+  "chartContributions": "積立額",
+  "year": "年"
+}

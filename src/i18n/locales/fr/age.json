@@ -1,0 +1,15 @@
+{
+  "title": "Calculateur d\u2019\u00e2ge",
+  "metaDescription": "Calculez votre \u00e2ge exact en ann\u00e9es, mois et jours. D\u00e9couvrez combien de jours vous s\u00e9parent de votre prochain anniversaire.",
+  "dateOfBirth": "Date de naissance",
+  "calculateAsOf": "Calculer \u00e0 la date du",
+  "yourAge": "Votre \u00e2ge",
+  "years": "ans",
+  "months": "mois",
+  "days": "jours",
+  "nextBirthday": "Prochain anniversaire",
+  "daysUntil": "jours avant votre prochain anniversaire",
+  "totalDays": "Nombre total de jours v\u00e9cus",
+  "totalWeeks": "Nombre total de semaines v\u00e9cues",
+  "totalMonths": "Nombre total de mois v\u00e9cus"
+}

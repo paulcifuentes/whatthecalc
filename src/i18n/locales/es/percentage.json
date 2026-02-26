@@ -1,0 +1,18 @@
+{
+  "title": "Calculadora de Porcentajes",
+  "metaDescription": "Calcula porcentajes fácilmente — encuentra el X% de Y, porcentaje de aumento/disminución y diferencia porcentual.",
+  "whatIsXPercentOfY": "¿Cuánto es el X% de Y?",
+  "percent": "Porcentaje",
+  "of": "de",
+  "result": "Resultado",
+  "xIsWhatPercentOfY": "¿X es qué % de Y?",
+  "value": "Valor",
+  "total": "Total",
+  "percentageResult": "Porcentaje",
+  "percentChange": "Cambio porcentual",
+  "from": "De",
+  "to": "A",
+  "change": "Cambio",
+  "increase": "aumento",
+  "decrease": "disminución"
+}

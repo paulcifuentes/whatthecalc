@@ -1,0 +1,27 @@
+{
+  "title": "Conversor de Zona Horaria",
+  "metaDescription": "Convierte la hora entre diferentes zonas horarias de todo el mundo al instante.",
+  "fromZone": "Zona horaria de origen",
+  "toZone": "Zona horaria de destino",
+  "time": "Hora",
+  "date": "Fecha",
+  "convertedTime": "Hora convertida",
+  "commonZones": {
+    "UTC": "UTC",
+    "America/New_York": "Nueva York (EST/EDT)",
+    "America/Chicago": "Chicago (CST/CDT)",
+    "America/Denver": "Denver (MST/MDT)",
+    "America/Los_Angeles": "Los Ángeles (PST/PDT)",
+    "Europe/London": "Londres (GMT/BST)",
+    "Europe/Paris": "París (CET/CEST)",
+    "Europe/Berlin": "Berlín (CET/CEST)",
+    "Asia/Tokyo": "Tokio (JST)",
+    "Asia/Shanghai": "Shanghái (CST)",
+    "Asia/Kolkata": "Calcuta (IST)",
+    "Asia/Dubai": "Dubái (GST)",
+    "Australia/Sydney": "Sídney (AEST/AEDT)",
+    "Pacific/Auckland": "Auckland (NZST/NZDT)",
+    "America/Sao_Paulo": "São Paulo (BRT)",
+    "America/Mexico_City": "Ciudad de México (CST/CDT)"
+  }
+}

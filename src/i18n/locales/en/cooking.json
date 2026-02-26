@@ -1,0 +1,24 @@
+{
+  "title": "Cooking Converter",
+  "metaDescription": "Convert between cooking measurements — cups, tablespoons, teaspoons, milliliters, grams, and ounces.",
+  "from": "From",
+  "to": "To",
+  "value": "Value",
+  "result": "Result",
+  "units": {
+    "tsp": "Teaspoons (tsp)",
+    "tbsp": "Tablespoons (tbsp)",
+    "cup": "Cups",
+    "ml": "Milliliters (ml)",
+    "l": "Liters (L)",
+    "floz": "Fluid Ounces (fl oz)",
+    "g": "Grams (g)",
+    "oz": "Ounces (oz)",
+    "kg": "Kilograms (kg)",
+    "lb": "Pounds (lb)"
+  },
+  "categories": {
+    "volume": "Volume",
+    "weight": "Weight"
+  }
+}

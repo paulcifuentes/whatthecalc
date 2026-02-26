@@ -1,0 +1,42 @@
+{
+  "percentage": {
+    "name": "Percentage Calculator",
+    "description": "Calculate percentages, increases, decreases, and differences"
+  },
+  "bmi": {
+    "name": "BMI Calculator",
+    "description": "Calculate your Body Mass Index from height and weight"
+  },
+  "calories": {
+    "name": "Calorie Calculator",
+    "description": "Estimate daily calorie needs based on your activity level"
+  },
+  "age": {
+    "name": "Age Calculator",
+    "description": "Calculate exact age and days until next birthday"
+  },
+  "compound-interest": {
+    "name": "Compound Interest",
+    "description": "See how your investments grow over time"
+  },
+  "gpa": {
+    "name": "GPA Calculator",
+    "description": "Calculate your cumulative grade point average"
+  },
+  "tip": {
+    "name": "Tip Calculator",
+    "description": "Calculate tip and split the bill between people"
+  },
+  "units": {
+    "name": "Unit Converter",
+    "description": "Convert between length, weight, volume, and temperature"
+  },
+  "timezone": {
+    "name": "Time Zone Converter",
+    "description": "Convert time between different time zones"
+  },
+  "cooking": {
+    "name": "Cooking Converter",
+    "description": "Convert between cups, tablespoons, milliliters, and more"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "title": "チップ計算",
+  "metaDescription": "チップの金額を素早く計算し、複数人での割り勘も簡単にできます。",
+  "billAmount": "お会計金額",
+  "tipPercentage": "チップの割合",
+  "numberOfPeople": "人数",
+  "tipAmount": "チップ金額",
+  "totalAmount": "合計金額",
+  "perPerson": "1人あたり",
+  "tipPerPerson": "1人あたりのチップ",
+  "totalPerPerson": "1人あたりの合計",
+  "custom": "カスタム"
+}

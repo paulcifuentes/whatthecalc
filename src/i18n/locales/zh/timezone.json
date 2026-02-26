@@ -1,0 +1,27 @@
+{
+  "title": "时区转换器",
+  "metaDescription": "即时转换世界各地不同时区之间的时间。",
+  "fromZone": "源时区",
+  "toZone": "目标时区",
+  "time": "时间",
+  "date": "日期",
+  "convertedTime": "转换后的时间",
+  "commonZones": {
+    "UTC": "UTC",
+    "America/New_York": "纽约 (EST/EDT)",
+    "America/Chicago": "芝加哥 (CST/CDT)",
+    "America/Denver": "丹佛 (MST/MDT)",
+    "America/Los_Angeles": "洛杉矶 (PST/PDT)",
+    "Europe/London": "伦敦 (GMT/BST)",
+    "Europe/Paris": "巴黎 (CET/CEST)",
+    "Europe/Berlin": "柏林 (CET/CEST)",
+    "Asia/Tokyo": "东京 (JST)",
+    "Asia/Shanghai": "上海 (CST)",
+    "Asia/Kolkata": "加尔各答 (IST)",
+    "Asia/Dubai": "迪拜 (GST)",
+    "Australia/Sydney": "悉尼 (AEST/AEDT)",
+    "Pacific/Auckland": "奥克兰 (NZST/NZDT)",
+    "America/Sao_Paulo": "圣保罗 (BRT)",
+    "America/Mexico_City": "墨西哥城 (CST/CDT)"
+  }
+}

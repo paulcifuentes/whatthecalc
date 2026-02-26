@@ -1,0 +1,13 @@
+{
+  "title": "Calculadora de Propinas",
+  "metaDescription": "Calcula el monto de la propina y divide la cuenta entre varias personas de forma rápida y sencilla.",
+  "billAmount": "Monto de la cuenta",
+  "tipPercentage": "Porcentaje de propina",
+  "numberOfPeople": "Número de personas",
+  "tipAmount": "Monto de la propina",
+  "totalAmount": "Monto total",
+  "perPerson": "Por persona",
+  "tipPerPerson": "Propina por persona",
+  "totalPerPerson": "Total por persona",
+  "custom": "Personalizado"
+}

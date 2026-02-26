@@ -1,0 +1,18 @@
+{
+  "title": "百分比计算器",
+  "metaDescription": "轻松计算百分比——求 Y 的 X%、百分比增减以及百分比差异。",
+  "whatIsXPercentOfY": "Y 的 X% 是多少？",
+  "percent": "百分比",
+  "of": "的",
+  "result": "结果",
+  "xIsWhatPercentOfY": "X 是 Y 的百分之几？",
+  "value": "数值",
+  "total": "总计",
+  "percentageResult": "百分比",
+  "percentChange": "百分比变化",
+  "from": "从",
+  "to": "到",
+  "change": "变化",
+  "increase": "增加",
+  "decrease": "减少"
+}

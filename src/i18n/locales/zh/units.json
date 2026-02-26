@@ -1,0 +1,46 @@
+{
+  "title": "单位转换器",
+  "metaDescription": "快速轻松地在长度、重量、体积和温度单位之间进行转换。",
+  "tabs": {
+    "length": "长度",
+    "weight": "重量",
+    "volume": "体积",
+    "temperature": "温度"
+  },
+  "from": "从",
+  "to": "到",
+  "value": "数值",
+  "result": "结果",
+  "length": {
+    "mm": "毫米 (mm)",
+    "cm": "厘米 (cm)",
+    "m": "米 (m)",
+    "km": "千米 (km)",
+    "in": "英寸 (in)",
+    "ft": "英尺 (ft)",
+    "yd": "码 (yd)",
+    "mi": "英里 (mi)"
+  },
+  "weight": {
+    "mg": "毫克 (mg)",
+    "g": "克 (g)",
+    "kg": "千克 (kg)",
+    "oz": "盎司 (oz)",
+    "lb": "磅 (lb)",
+    "t": "公吨 (t)"
+  },
+  "volume": {
+    "ml": "毫升 (ml)",
+    "l": "升 (L)",
+    "gal": "加仑 (gal)",
+    "qt": "夸脱 (qt)",
+    "pt": "品脱 (pt)",
+    "cup": "杯",
+    "floz": "液量盎司 (fl oz)"
+  },
+  "temperature": {
+    "c": "摄氏度 (°C)",
+    "f": "华氏度 (°F)",
+    "k": "开尔文 (K)"
+  }
+}

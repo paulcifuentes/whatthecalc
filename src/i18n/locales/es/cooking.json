@@ -1,0 +1,24 @@
+{
+  "title": "Conversor de Cocina",
+  "metaDescription": "Convierte entre medidas de cocina — tazas, cucharadas, cucharaditas, mililitros, gramos y onzas.",
+  "from": "De",
+  "to": "A",
+  "value": "Valor",
+  "result": "Resultado",
+  "units": {
+    "tsp": "Cucharaditas (tsp)",
+    "tbsp": "Cucharadas (tbsp)",
+    "cup": "Tazas",
+    "ml": "Mililitros (ml)",
+    "l": "Litros (L)",
+    "floz": "Onzas líquidas (fl oz)",
+    "g": "Gramos (g)",
+    "oz": "Onzas (oz)",
+    "kg": "Kilogramos (kg)",
+    "lb": "Libras (lb)"
+  },
+  "categories": {
+    "volume": "Volumen",
+    "weight": "Peso"
+  }
+}

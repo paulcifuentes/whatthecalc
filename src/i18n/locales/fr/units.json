@@ -1,0 +1,46 @@
+{
+  "title": "Convertisseur d\u2019unit\u00e9s",
+  "metaDescription": "Convertissez rapidement et facilement entre les unit\u00e9s de longueur, poids, volume et temp\u00e9rature.",
+  "tabs": {
+    "length": "Longueur",
+    "weight": "Poids",
+    "volume": "Volume",
+    "temperature": "Temp\u00e9rature"
+  },
+  "from": "De",
+  "to": "Vers",
+  "value": "Valeur",
+  "result": "R\u00e9sultat",
+  "length": {
+    "mm": "Millim\u00e8tres (mm)",
+    "cm": "Centim\u00e8tres (cm)",
+    "m": "M\u00e8tres (m)",
+    "km": "Kilom\u00e8tres (km)",
+    "in": "Pouces (in)",
+    "ft": "Pieds (ft)",
+    "yd": "Yards (yd)",
+    "mi": "Miles (mi)"
+  },
+  "weight": {
+    "mg": "Milligrammes (mg)",
+    "g": "Grammes (g)",
+    "kg": "Kilogrammes (kg)",
+    "oz": "Onces (oz)",
+    "lb": "Livres (lb)",
+    "t": "Tonnes m\u00e9triques (t)"
+  },
+  "volume": {
+    "ml": "Millilitres (ml)",
+    "l": "Litres (L)",
+    "gal": "Gallons (gal)",
+    "qt": "Quarts (qt)",
+    "pt": "Pintes (pt)",
+    "cup": "Tasses",
+    "floz": "Onces liquides (fl oz)"
+  },
+  "temperature": {
+    "c": "Celsius (\u00b0C)",
+    "f": "Fahrenheit (\u00b0F)",
+    "k": "Kelvin (K)"
+  }
+}

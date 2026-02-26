@@ -1,0 +1,24 @@
+{
+  "title": "烹饪换算器",
+  "metaDescription": "在烹饪计量单位之间进行转换——杯、汤匙、茶匙、毫升、克和盎司。",
+  "from": "从",
+  "to": "到",
+  "value": "数值",
+  "result": "结果",
+  "units": {
+    "tsp": "茶匙 (tsp)",
+    "tbsp": "汤匙 (tbsp)",
+    "cup": "杯",
+    "ml": "毫升 (ml)",
+    "l": "升 (L)",
+    "floz": "液量盎司 (fl oz)",
+    "g": "克 (g)",
+    "oz": "盎司 (oz)",
+    "kg": "千克 (kg)",
+    "lb": "磅 (lb)"
+  },
+  "categories": {
+    "volume": "体积",
+    "weight": "重量"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "Convertisseur de cuisine",
+  "metaDescription": "Convertissez entre les mesures de cuisine \u2014 tasses, cuill\u00e8res \u00e0 soupe, cuill\u00e8res \u00e0 caf\u00e9, millilitres, grammes et onces.",
+  "from": "De",
+  "to": "Vers",
+  "value": "Valeur",
+  "result": "R\u00e9sultat",
+  "units": {
+    "tsp": "Cuill\u00e8res \u00e0 caf\u00e9 (tsp)",
+    "tbsp": "Cuill\u00e8res \u00e0 soupe (tbsp)",
+    "cup": "Tasses",
+    "ml": "Millilitres (ml)",
+    "l": "Litres (L)",
+    "floz": "Onces liquides (fl oz)",
+    "g": "Grammes (g)",
+    "oz": "Onces (oz)",
+    "kg": "Kilogrammes (kg)",
+    "lb": "Livres (lb)"
+  },
+  "categories": {
+    "volume": "Volume",
+    "weight": "Poids"
+  }
+}

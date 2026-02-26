@@ -1,0 +1,27 @@
+{
+  "title": "Time Zone Converter",
+  "metaDescription": "Convert time between different time zones around the world instantly.",
+  "fromZone": "From Time Zone",
+  "toZone": "To Time Zone",
+  "time": "Time",
+  "date": "Date",
+  "convertedTime": "Converted Time",
+  "commonZones": {
+    "UTC": "UTC",
+    "America/New_York": "New York (EST/EDT)",
+    "America/Chicago": "Chicago (CST/CDT)",
+    "America/Denver": "Denver (MST/MDT)",
+    "America/Los_Angeles": "Los Angeles (PST/PDT)",
+    "Europe/London": "London (GMT/BST)",
+    "Europe/Paris": "Paris (CET/CEST)",
+    "Europe/Berlin": "Berlin (CET/CEST)",
+    "Asia/Tokyo": "Tokyo (JST)",
+    "Asia/Shanghai": "Shanghai (CST)",
+    "Asia/Kolkata": "Kolkata (IST)",
+    "Asia/Dubai": "Dubai (GST)",
+    "Australia/Sydney": "Sydney (AEST/AEDT)",
+    "Pacific/Auckland": "Auckland (NZST/NZDT)",
+    "America/Sao_Paulo": "São Paulo (BRT)",
+    "America/Mexico_City": "Mexico City (CST/CDT)"
+  }
+}

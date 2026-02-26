@@ -1,0 +1,42 @@
+{
+  "percentage": {
+    "name": "Calculatrice de pourcentage",
+    "description": "Calculez des pourcentages, augmentations, diminutions et diff\u00e9rences"
+  },
+  "bmi": {
+    "name": "Calculateur d\u2019IMC",
+    "description": "Calculez votre indice de masse corporelle \u00e0 partir de votre taille et poids"
+  },
+  "calories": {
+    "name": "Calculateur de calories",
+    "description": "Estimez vos besoins caloriques quotidiens selon votre niveau d\u2019activit\u00e9"
+  },
+  "age": {
+    "name": "Calculateur d\u2019\u00e2ge",
+    "description": "Calculez votre \u00e2ge exact et le nombre de jours avant votre prochain anniversaire"
+  },
+  "compound-interest": {
+    "name": "Int\u00e9r\u00eats compos\u00e9s",
+    "description": "D\u00e9couvrez comment vos investissements croissent au fil du temps"
+  },
+  "gpa": {
+    "name": "Calculateur de moyenne",
+    "description": "Calculez votre moyenne g\u00e9n\u00e9rale pond\u00e9r\u00e9e"
+  },
+  "tip": {
+    "name": "Calculateur de pourboire",
+    "description": "Calculez le pourboire et partagez l\u2019addition entre plusieurs personnes"
+  },
+  "units": {
+    "name": "Convertisseur d\u2019unit\u00e9s",
+    "description": "Convertissez entre longueur, poids, volume et temp\u00e9rature"
+  },
+  "timezone": {
+    "name": "Convertisseur de fuseaux horaires",
+    "description": "Convertissez l\u2019heure entre diff\u00e9rents fuseaux horaires"
+  },
+  "cooking": {
+    "name": "Convertisseur de cuisine",
+    "description": "Convertissez entre tasses, cuill\u00e8res \u00e0 soupe, millilitres et plus encore"
+  }
+}

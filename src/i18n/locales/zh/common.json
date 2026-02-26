@@ -1,0 +1,21 @@
+{
+  "siteName": "算什么",
+  "siteTagline": "快速、免费的计算器和转换工具",
+  "nav": {
+    "calculators": "计算器",
+    "converters": "转换工具"
+  },
+  "home": {
+    "title": "你需要计算什么？",
+    "subtitle": "选择一个工具，即刻获取答案。"
+  },
+  "footer": {
+    "copyright": "What The Calc"
+  },
+  "notFound": {
+    "title": "页面未找到",
+    "description": "您访问的页面不存在。",
+    "backHome": "返回首页"
+  },
+  "language": "语言"
+}

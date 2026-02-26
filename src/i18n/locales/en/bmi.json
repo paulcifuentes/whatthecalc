@@ -1,0 +1,19 @@
+{
+  "title": "BMI Calculator",
+  "metaDescription": "Calculate your Body Mass Index (BMI) and find out if you're in a healthy weight range.",
+  "height": "Height",
+  "weight": "Weight",
+  "metric": "Metric",
+  "imperial": "Imperial",
+  "cm": "cm",
+  "ft": "ft",
+  "in": "in",
+  "kg": "kg",
+  "lbs": "lbs",
+  "yourBmi": "Your BMI",
+  "category": "Category",
+  "underweight": "Underweight",
+  "normal": "Normal weight",
+  "overweight": "Overweight",
+  "obese": "Obese"
+}

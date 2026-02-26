@@ -1,0 +1,21 @@
+{
+  "title": "复利计算器",
+  "metaDescription": "计算复利，通过交互式图表查看您的投资如何随时间增长。",
+  "principal": "初始投资",
+  "monthlyContribution": "每月追加投入",
+  "annualRate": "年利率 (%)",
+  "years": "投资期限（年）",
+  "compoundFrequency": "复利频率",
+  "annually": "每年",
+  "semiAnnually": "每半年",
+  "quarterly": "每季度",
+  "monthly": "每月",
+  "daily": "每天",
+  "futureValue": "未来价值",
+  "totalContributions": "总投入金额",
+  "totalInterest": "总利息收益",
+  "chartTitle": "增长趋势",
+  "chartBalance": "余额",
+  "chartContributions": "投入金额",
+  "year": "年"
+}

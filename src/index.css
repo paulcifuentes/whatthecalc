@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Instrument Serif", Georgia, serif;
+  --font-body: "Plus Jakarta Sans", system-ui, sans-serif;
+  --color-cream-50: #fefdfb;
+  --color-cream-100: #faf9f5;
+  --color-cream-200: #f3f1eb;
+  --color-ink-900: #0c0f17;
+  --color-ink-800: #161b26;
+  --color-ink-700: #1e2535;
+  --color-ink-600: #2a3347;
+  --color-ink-500: #3d4a63;
+  --color-ink-400: #5a6882;
+  --color-ink-300: #8892a8;
+  --color-teal-accent: #0d9488;
+  --color-teal-light: #14b8a6;
+  --color-teal-glow: #99f6e4;
+  --color-teal-50: #f0fdfa;
+}
+
+* {
+  font-family: var(--font-body);
+}
+
+body {
+  min-width: 360px;
+  background-color: var(--color-cream-100);
+  color: #1a1a2e;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Subtle dot grid background */
+.bg-dotgrid {
+  background-image: radial-gradient(circle, #d1d5db 0.75px, transparent 0.75px);
+  background-size: 24px 24px;
+}
+
+/* Custom scrollbar for sidebar */
+.sidebar-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+.sidebar-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+.sidebar-scroll::-webkit-scrollbar-thumb {
+  background: var(--color-ink-600);
+  border-radius: 4px;
+}
+
+/* Number input spinner removal for cleaner look */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+/* Staggered entrance animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.45s ease-out both;
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-scale-in {
+  animation: scaleIn 0.35s ease-out both;
+}
+
+/* Smooth focus ring */
+.focus-ring {
+  transition: box-shadow 0.15s ease;
+}
+.focus-ring:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--color-cream-100), 0 0 0 4px var(--color-teal-accent);
+}
+
+/* Hide scrollbar for mobile nav */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Card hover lift */
+.card-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px -5px rgba(0, 0, 0, 0.08), 0 4px 10px -4px rgba(0, 0, 0, 0.04);
+}

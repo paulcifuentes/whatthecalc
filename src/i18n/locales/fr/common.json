@@ -1,0 +1,21 @@
+{
+  "siteName": "Quel Calcul",
+  "siteTagline": "Calculatrices et convertisseurs rapides et gratuits",
+  "nav": {
+    "calculators": "Calculatrices",
+    "converters": "Convertisseurs"
+  },
+  "home": {
+    "title": "Que souhaitez-vous calculer ?",
+    "subtitle": "Choisissez un outil et obtenez votre r\u00e9ponse instantan\u00e9ment."
+  },
+  "footer": {
+    "copyright": "What The Calc"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "description": "La page que vous recherchez n\u2019existe pas.",
+    "backHome": "Retour \u00e0 l\u2019accueil"
+  },
+  "language": "Langue"
+}

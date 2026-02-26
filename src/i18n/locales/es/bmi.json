@@ -1,0 +1,19 @@
+{
+  "title": "Calculadora de IMC",
+  "metaDescription": "Calcula tu Índice de Masa Corporal (IMC) y descubre si estás en un rango de peso saludable.",
+  "height": "Altura",
+  "weight": "Peso",
+  "metric": "Métrico",
+  "imperial": "Imperial",
+  "cm": "cm",
+  "ft": "ft",
+  "in": "in",
+  "kg": "kg",
+  "lbs": "lbs",
+  "yourBmi": "Tu IMC",
+  "category": "Categoría",
+  "underweight": "Bajo peso",
+  "normal": "Peso normal",
+  "overweight": "Sobrepeso",
+  "obese": "Obesidad"
+}

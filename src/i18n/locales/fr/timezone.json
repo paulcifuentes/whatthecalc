@@ -1,0 +1,27 @@
+{
+  "title": "Convertisseur de fuseaux horaires",
+  "metaDescription": "Convertissez instantan\u00e9ment l\u2019heure entre diff\u00e9rents fuseaux horaires \u00e0 travers le monde.",
+  "fromZone": "Fuseau horaire d\u2019origine",
+  "toZone": "Fuseau horaire de destination",
+  "time": "Heure",
+  "date": "Date",
+  "convertedTime": "Heure convertie",
+  "commonZones": {
+    "UTC": "UTC",
+    "America/New_York": "New York (EST/EDT)",
+    "America/Chicago": "Chicago (CST/CDT)",
+    "America/Denver": "Denver (MST/MDT)",
+    "America/Los_Angeles": "Los Angeles (PST/PDT)",
+    "Europe/London": "Londres (GMT/BST)",
+    "Europe/Paris": "Paris (CET/CEST)",
+    "Europe/Berlin": "Berlin (CET/CEST)",
+    "Asia/Tokyo": "Tokyo (JST)",
+    "Asia/Shanghai": "Shanghai (CST)",
+    "Asia/Kolkata": "Calcutta (IST)",
+    "Asia/Dubai": "Duba\u00ef (GST)",
+    "Australia/Sydney": "Sydney (AEST/AEDT)",
+    "Pacific/Auckland": "Auckland (NZST/NZDT)",
+    "America/Sao_Paulo": "S\u00e3o Paulo (BRT)",
+    "America/Mexico_City": "Mexico (CST/CDT)"
+  }
+}

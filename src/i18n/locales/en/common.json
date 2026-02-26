@@ -1,0 +1,21 @@
+{
+  "siteName": "What The Calc",
+  "siteTagline": "Fast, free calculators and converters",
+  "nav": {
+    "calculators": "Calculators",
+    "converters": "Converters"
+  },
+  "home": {
+    "title": "What do you need to calculate?",
+    "subtitle": "Pick a tool and get your answer instantly."
+  },
+  "footer": {
+    "copyright": "What The Calc"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist.",
+    "backHome": "Go Home"
+  },
+  "language": "Language"
+}

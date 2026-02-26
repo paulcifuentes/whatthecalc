@@ -1,0 +1,21 @@
+{
+  "title": "Calculateur d\u2019int\u00e9r\u00eats compos\u00e9s",
+  "metaDescription": "Calculez les int\u00e9r\u00eats compos\u00e9s et visualisez la croissance de vos investissements au fil du temps gr\u00e2ce \u00e0 un graphique interactif.",
+  "principal": "Investissement initial",
+  "monthlyContribution": "Contribution mensuelle",
+  "annualRate": "Taux d\u2019int\u00e9r\u00eat annuel (%)",
+  "years": "Dur\u00e9e de l\u2019investissement (ann\u00e9es)",
+  "compoundFrequency": "Fr\u00e9quence de capitalisation",
+  "annually": "Annuelle",
+  "semiAnnually": "Semestrielle",
+  "quarterly": "Trimestrielle",
+  "monthly": "Mensuelle",
+  "daily": "Quotidienne",
+  "futureValue": "Valeur future",
+  "totalContributions": "Total des contributions",
+  "totalInterest": "Total des int\u00e9r\u00eats accumul\u00e9s",
+  "chartTitle": "\u00c9volution dans le temps",
+  "chartBalance": "Solde",
+  "chartContributions": "Contributions",
+  "year": "Ann\u00e9e"
+}

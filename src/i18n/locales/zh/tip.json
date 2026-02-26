@@ -1,0 +1,13 @@
+{
+  "title": "小费计算器",
+  "metaDescription": "快速轻松地计算小费金额并在多人之间分摊账单。",
+  "billAmount": "账单金额",
+  "tipPercentage": "小费比例",
+  "numberOfPeople": "用餐人数",
+  "tipAmount": "小费金额",
+  "totalAmount": "总金额",
+  "perPerson": "每人",
+  "tipPerPerson": "每人小费",
+  "totalPerPerson": "每人总计",
+  "custom": "自定义"
+}

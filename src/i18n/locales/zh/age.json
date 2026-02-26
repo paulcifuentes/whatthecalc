@@ -1,0 +1,15 @@
+{
+  "title": "年龄计算器",
+  "metaDescription": "精确计算您的年龄，以年、月、日为单位。查看距离下一个生日还有多少天。",
+  "dateOfBirth": "出生日期",
+  "calculateAsOf": "计算截止日期",
+  "yourAge": "您的年龄",
+  "years": "年",
+  "months": "月",
+  "days": "天",
+  "nextBirthday": "下一个生日",
+  "daysUntil": "天后是您的下一个生日",
+  "totalDays": "已度过的总天数",
+  "totalWeeks": "已度过的总周数",
+  "totalMonths": "已度过的总月数"
+}

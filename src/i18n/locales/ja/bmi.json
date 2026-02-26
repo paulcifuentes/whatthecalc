@@ -1,0 +1,19 @@
+{
+  "title": "BMI計算",
+  "metaDescription": "ボディマス指数（BMI）を計算して、適正体重かどうかを確認しましょう。",
+  "height": "身長",
+  "weight": "体重",
+  "metric": "メートル法",
+  "imperial": "ヤード・ポンド法",
+  "cm": "cm",
+  "ft": "ft",
+  "in": "in",
+  "kg": "kg",
+  "lbs": "lbs",
+  "yourBmi": "あなたのBMI",
+  "category": "分類",
+  "underweight": "低体重",
+  "normal": "普通体重",
+  "overweight": "過体重",
+  "obese": "肥満"
+}

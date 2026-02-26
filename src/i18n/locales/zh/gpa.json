@@ -1,0 +1,13 @@
+{
+  "title": "GPA 计算器",
+  "metaDescription": "输入您的课程、成绩和学分来计算累计 GPA。",
+  "courseName": "课程名称",
+  "credits": "学分",
+  "grade": "成绩",
+  "addCourse": "添加课程",
+  "removeCourse": "删除",
+  "cumulativeGpa": "累计 GPA",
+  "totalCredits": "总学分",
+  "totalPoints": "总绩点",
+  "course": "课程"
+}

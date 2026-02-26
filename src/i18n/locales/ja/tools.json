@@ -1,0 +1,42 @@
+{
+  "percentage": {
+    "name": "パーセント計算",
+    "description": "パーセントの計算、増減率、差分を簡単に算出"
+  },
+  "bmi": {
+    "name": "BMI計算",
+    "description": "身長と体重からボディマス指数を計算"
+  },
+  "calories": {
+    "name": "カロリー計算",
+    "description": "活動レベルに基づいて1日の必要カロリーを推定"
+  },
+  "age": {
+    "name": "年齢計算",
+    "description": "正確な年齢と次の誕生日までの日数を計算"
+  },
+  "compound-interest": {
+    "name": "複利計算",
+    "description": "投資が時間とともにどう成長するかを確認"
+  },
+  "gpa": {
+    "name": "GPA計算",
+    "description": "累積成績平均点（GPA）を計算"
+  },
+  "tip": {
+    "name": "チップ計算",
+    "description": "チップの金額を計算し、割り勘もできる"
+  },
+  "units": {
+    "name": "単位変換",
+    "description": "長さ、重さ、体積、温度の単位を変換"
+  },
+  "timezone": {
+    "name": "タイムゾーン変換",
+    "description": "異なるタイムゾーン間で時刻を変換"
+  },
+  "cooking": {
+    "name": "料理単位変換",
+    "description": "カップ、大さじ、ミリリットルなどを相互変換"
+  }
+}

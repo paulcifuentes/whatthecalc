@@ -1,0 +1,18 @@
+{
+  "title": "Calculatrice de pourcentage",
+  "metaDescription": "Calculez facilement des pourcentages \u2014 trouvez X% de Y, l\u2019augmentation ou la diminution en pourcentage, et la diff\u00e9rence en pourcentage.",
+  "whatIsXPercentOfY": "Combien font X% de Y ?",
+  "percent": "Pourcentage",
+  "of": "de",
+  "result": "R\u00e9sultat",
+  "xIsWhatPercentOfY": "X repr\u00e9sente quel % de Y ?",
+  "value": "Valeur",
+  "total": "Total",
+  "percentageResult": "Pourcentage",
+  "percentChange": "Variation en pourcentage",
+  "from": "De",
+  "to": "\u00c0",
+  "change": "Variation",
+  "increase": "augmentation",
+  "decrease": "diminution"
+}

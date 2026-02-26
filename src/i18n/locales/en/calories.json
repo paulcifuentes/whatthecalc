@@ -1,0 +1,23 @@
+{
+  "title": "Calorie Calculator",
+  "metaDescription": "Estimate your daily calorie needs using the Mifflin-St Jeor equation based on age, gender, height, weight, and activity level.",
+  "age": "Age",
+  "gender": "Gender",
+  "male": "Male",
+  "female": "Female",
+  "height": "Height",
+  "weight": "Weight",
+  "activityLevel": "Activity Level",
+  "sedentary": "Sedentary (little or no exercise)",
+  "light": "Lightly active (1-3 days/week)",
+  "moderate": "Moderately active (3-5 days/week)",
+  "active": "Active (6-7 days/week)",
+  "veryActive": "Very active (hard exercise daily)",
+  "bmr": "Basal Metabolic Rate (BMR)",
+  "maintenance": "Maintenance Calories",
+  "mildLoss": "Mild weight loss (0.25 kg/week)",
+  "weightLoss": "Weight loss (0.5 kg/week)",
+  "mildGain": "Mild weight gain (0.25 kg/week)",
+  "weightGain": "Weight gain (0.5 kg/week)",
+  "calPerDay": "cal/day"
+}

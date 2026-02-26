@@ -1,0 +1,23 @@
+{
+  "title": "カロリー計算",
+  "metaDescription": "ミフリン・セントジョール式を使用して、年齢・性別・身長・体重・活動レベルから1日の必要カロリーを推定します。",
+  "age": "年齢",
+  "gender": "性別",
+  "male": "男性",
+  "female": "女性",
+  "height": "身長",
+  "weight": "体重",
+  "activityLevel": "活動レベル",
+  "sedentary": "座りがち（運動なし）",
+  "light": "軽い活動（週1〜3日）",
+  "moderate": "適度な活動（週3〜5日）",
+  "active": "活発（週6〜7日）",
+  "veryActive": "非常に活発（毎日激しい運動）",
+  "bmr": "基礎代謝量（BMR）",
+  "maintenance": "維持カロリー",
+  "mildLoss": "軽い減量（0.25 kg/週）",
+  "weightLoss": "減量（0.5 kg/週）",
+  "mildGain": "軽い増量（0.25 kg/週）",
+  "weightGain": "増量（0.5 kg/週）",
+  "calPerDay": "cal/日"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "GPA Calculator",
+  "metaDescription": "Calculate your cumulative GPA by entering your courses, grades, and credit hours.",
+  "courseName": "Course Name",
+  "credits": "Credits",
+  "grade": "Grade",
+  "addCourse": "Add Course",
+  "removeCourse": "Remove",
+  "cumulativeGpa": "Cumulative GPA",
+  "totalCredits": "Total Credits",
+  "totalPoints": "Total Grade Points",
+  "course": "Course"
+}

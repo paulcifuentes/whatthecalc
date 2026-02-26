@@ -1,0 +1,21 @@
+{
+  "siteName": "何の計算",
+  "siteTagline": "無料で使える便利な計算・変換ツール",
+  "nav": {
+    "calculators": "計算ツール",
+    "converters": "変換ツール"
+  },
+  "home": {
+    "title": "何を計算しますか？",
+    "subtitle": "ツールを選んで、すぐに答えを得ましょう。"
+  },
+  "footer": {
+    "copyright": "What The Calc"
+  },
+  "notFound": {
+    "title": "ページが見つかりません",
+    "description": "お探しのページは存在しません。",
+    "backHome": "ホームに戻る"
+  },
+  "language": "言語"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "パーセント計算",
+  "metaDescription": "パーセントを簡単に計算 — YのX%、増減率、パーセントの差分を算出できます。",
+  "whatIsXPercentOfY": "YのX%はいくつ？",
+  "percent": "パーセント",
+  "of": "の",
+  "result": "結果",
+  "xIsWhatPercentOfY": "XはYの何%？",
+  "value": "値",
+  "total": "合計",
+  "percentageResult": "パーセント",
+  "percentChange": "増減率",
+  "from": "変更前",
+  "to": "変更後",
+  "change": "変化率",
+  "increase": "増加",
+  "decrease": "減少"
+}

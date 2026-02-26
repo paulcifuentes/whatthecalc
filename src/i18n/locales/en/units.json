@@ -1,0 +1,46 @@
+{
+  "title": "Unit Converter",
+  "metaDescription": "Convert between units of length, weight, volume, and temperature quickly and easily.",
+  "tabs": {
+    "length": "Length",
+    "weight": "Weight",
+    "volume": "Volume",
+    "temperature": "Temperature"
+  },
+  "from": "From",
+  "to": "To",
+  "value": "Value",
+  "result": "Result",
+  "length": {
+    "mm": "Millimeters (mm)",
+    "cm": "Centimeters (cm)",
+    "m": "Meters (m)",
+    "km": "Kilometers (km)",
+    "in": "Inches (in)",
+    "ft": "Feet (ft)",
+    "yd": "Yards (yd)",
+    "mi": "Miles (mi)"
+  },
+  "weight": {
+    "mg": "Milligrams (mg)",
+    "g": "Grams (g)",
+    "kg": "Kilograms (kg)",
+    "oz": "Ounces (oz)",
+    "lb": "Pounds (lb)",
+    "t": "Metric Tons (t)"
+  },
+  "volume": {
+    "ml": "Milliliters (ml)",
+    "l": "Liters (L)",
+    "gal": "Gallons (gal)",
+    "qt": "Quarts (qt)",
+    "pt": "Pints (pt)",
+    "cup": "Cups",
+    "floz": "Fluid Ounces (fl oz)"
+  },
+  "temperature": {
+    "c": "Celsius (°C)",
+    "f": "Fahrenheit (°F)",
+    "k": "Kelvin (K)"
+  }
+}

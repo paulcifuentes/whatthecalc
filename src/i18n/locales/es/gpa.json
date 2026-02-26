@@ -1,0 +1,13 @@
+{
+  "title": "Calculadora de Promedio",
+  "metaDescription": "Calcula tu promedio general ingresando tus materias, calificaciones y créditos.",
+  "courseName": "Nombre de la materia",
+  "credits": "Créditos",
+  "grade": "Calificación",
+  "addCourse": "Agregar materia",
+  "removeCourse": "Eliminar",
+  "cumulativeGpa": "Promedio acumulado",
+  "totalCredits": "Créditos totales",
+  "totalPoints": "Puntos totales",
+  "course": "Materia"
+}

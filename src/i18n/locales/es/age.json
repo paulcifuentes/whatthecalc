@@ -1,0 +1,15 @@
+{
+  "title": "Calculadora de Edad",
+  "metaDescription": "Calcula tu edad exacta en años, meses y días. Descubre cuántos días faltan para tu próximo cumpleaños.",
+  "dateOfBirth": "Fecha de nacimiento",
+  "calculateAsOf": "Calcular a partir de",
+  "yourAge": "Tu edad",
+  "years": "años",
+  "months": "meses",
+  "days": "días",
+  "nextBirthday": "Próximo cumpleaños",
+  "daysUntil": "días para tu próximo cumpleaños",
+  "totalDays": "Total de días vividos",
+  "totalWeeks": "Total de semanas vividas",
+  "totalMonths": "Total de meses vividos"
+}

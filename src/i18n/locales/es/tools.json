@@ -1,0 +1,42 @@
+{
+  "percentage": {
+    "name": "Calculadora de Porcentajes",
+    "description": "Calcula porcentajes, aumentos, disminuciones y diferencias"
+  },
+  "bmi": {
+    "name": "Calculadora de IMC",
+    "description": "Calcula tu Índice de Masa Corporal a partir de tu altura y peso"
+  },
+  "calories": {
+    "name": "Calculadora de Calorías",
+    "description": "Estima tus necesidades calóricas diarias según tu nivel de actividad"
+  },
+  "age": {
+    "name": "Calculadora de Edad",
+    "description": "Calcula tu edad exacta y los días que faltan para tu próximo cumpleaños"
+  },
+  "compound-interest": {
+    "name": "Interés Compuesto",
+    "description": "Observa cómo crecen tus inversiones con el tiempo"
+  },
+  "gpa": {
+    "name": "Calculadora de Promedio",
+    "description": "Calcula tu promedio general de calificaciones"
+  },
+  "tip": {
+    "name": "Calculadora de Propinas",
+    "description": "Calcula la propina y divide la cuenta entre varias personas"
+  },
+  "units": {
+    "name": "Conversor de Unidades",
+    "description": "Convierte entre longitud, peso, volumen y temperatura"
+  },
+  "timezone": {
+    "name": "Conversor de Zona Horaria",
+    "description": "Convierte la hora entre diferentes zonas horarias"
+  },
+  "cooking": {
+    "name": "Conversor de Cocina",
+    "description": "Convierte entre tazas, cucharadas, mililitros y más"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Calculateur de moyenne",
+  "metaDescription": "Calculez votre moyenne g\u00e9n\u00e9rale pond\u00e9r\u00e9e en saisissant vos cours, notes et cr\u00e9dits.",
+  "courseName": "Nom du cours",
+  "credits": "Cr\u00e9dits",
+  "grade": "Note",
+  "addCourse": "Ajouter un cours",
+  "removeCourse": "Supprimer",
+  "cumulativeGpa": "Moyenne g\u00e9n\u00e9rale",
+  "totalCredits": "Total des cr\u00e9dits",
+  "totalPoints": "Total des points",
+  "course": "Cours"
+}

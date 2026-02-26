@@ -1,0 +1,15 @@
+{
+  "title": "Age Calculator",
+  "metaDescription": "Calculate your exact age in years, months, and days. Find out how many days until your next birthday.",
+  "dateOfBirth": "Date of Birth",
+  "calculateAsOf": "Calculate as of",
+  "yourAge": "Your Age",
+  "years": "years",
+  "months": "months",
+  "days": "days",
+  "nextBirthday": "Next Birthday",
+  "daysUntil": "days until your next birthday",
+  "totalDays": "Total days lived",
+  "totalWeeks": "Total weeks lived",
+  "totalMonths": "Total months lived"
+}

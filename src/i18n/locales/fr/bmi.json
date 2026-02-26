@@ -1,0 +1,19 @@
+{
+  "title": "Calculateur d\u2019IMC",
+  "metaDescription": "Calculez votre indice de masse corporelle (IMC) et d\u00e9couvrez si vous \u00eates dans une fourchette de poids saine.",
+  "height": "Taille",
+  "weight": "Poids",
+  "metric": "M\u00e9trique",
+  "imperial": "Imp\u00e9rial",
+  "cm": "cm",
+  "ft": "ft",
+  "in": "in",
+  "kg": "kg",
+  "lbs": "lbs",
+  "yourBmi": "Votre IMC",
+  "category": "Cat\u00e9gorie",
+  "underweight": "Insuffisance pond\u00e9rale",
+  "normal": "Poids normal",
+  "overweight": "Surpoids",
+  "obese": "Ob\u00e9sit\u00e9"
+}

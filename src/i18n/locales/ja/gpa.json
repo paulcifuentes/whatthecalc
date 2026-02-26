@@ -1,0 +1,13 @@
+{
+  "title": "GPA計算",
+  "metaDescription": "科目名、成績、単位数を入力して累積GPAを計算しましょう。",
+  "courseName": "科目名",
+  "credits": "単位数",
+  "grade": "成績",
+  "addCourse": "科目を追加",
+  "removeCourse": "削除",
+  "cumulativeGpa": "累積GPA",
+  "totalCredits": "合計単位数",
+  "totalPoints": "合計グレードポイント",
+  "course": "科目"
+}
