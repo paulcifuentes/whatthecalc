@@ -7,7 +7,12 @@
   },
   "home": {
     "title": "你需要计算什么？",
-    "subtitle": "选择一个工具，即刻获取答案。"
+    "subtitle": "选择一个工具，即刻获取答案。",
+    "placeholder": "你想计算什么？",
+    "listening": "正在聆听...",
+    "noResults": "未找到匹配的工具",
+    "popular": "热门工具",
+    "valuesDetected": "已检测到值"
   },
   "footer": {
     "copyright": "What The Calc"

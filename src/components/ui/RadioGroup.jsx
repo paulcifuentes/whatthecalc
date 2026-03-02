@@ -10,8 +10,8 @@ export default function RadioGroup({ label, name, value, onChange, options, clas
             key={opt.value}
             className={`flex items-center gap-2 px-4 py-2.5 rounded-xl border text-sm cursor-pointer transition-all duration-200 ${
               value === opt.value
-                ? 'border-teal-accent bg-teal-50 text-teal-accent font-semibold shadow-sm shadow-teal-accent/10'
-                : 'border-cream-200 bg-cream-50 text-ink-600 hover:border-ink-300'
+                ? 'border-transparent bg-sunset-50 text-sunset font-semibold'
+                : 'border-cream-200 bg-cream-200/70 text-ink-600 hover:bg-cream-200'
             }`}
           >
             <input

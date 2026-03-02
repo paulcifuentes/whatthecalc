@@ -12,6 +12,7 @@ const AgePage = lazy(() => import('./pages/calculators/AgePage'))
 const CompoundInterestPage = lazy(() => import('./pages/calculators/CompoundInterestPage'))
 const GpaPage = lazy(() => import('./pages/calculators/GpaPage'))
 const TipPage = lazy(() => import('./pages/calculators/TipPage'))
+const AspectRatioPage = lazy(() => import('./pages/calculators/AspectRatioPage'))
 const UnitsPage = lazy(() => import('./pages/converters/UnitsPage'))
 const TimezonePage = lazy(() => import('./pages/converters/TimezonePage'))
 const CookingPage = lazy(() => import('./pages/converters/CookingPage'))
@@ -40,6 +41,7 @@ export default function App() {
               <Route path="compound-interest" element={<CompoundInterestPage />} />
               <Route path="gpa" element={<GpaPage />} />
               <Route path="tip" element={<TipPage />} />
+              <Route path="aspect-ratio" element={<AspectRatioPage />} />
               <Route path="units" element={<UnitsPage />} />
               <Route path="timezone" element={<TimezonePage />} />
               <Route path="cooking" element={<CookingPage />} />

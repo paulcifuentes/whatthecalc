@@ -1,0 +1,14 @@
+{
+  "title": "Aspect Ratio Calculator",
+  "metaDescription": "Calculate image and video dimensions from any aspect ratio. Supports 16:9, 4:3, 21:9, and custom ratios.",
+  "selectRatio": "Select Ratio",
+  "customRatio": "Custom Ratio",
+  "ratioWidth": "Ratio W",
+  "ratioHeight": "Ratio H",
+  "enterDimension": "Enter a Dimension",
+  "width": "Width",
+  "height": "Height",
+  "calculatedWidth": "Width",
+  "calculatedHeight": "Height",
+  "decimalRatio": "Decimal Ratio"
+}

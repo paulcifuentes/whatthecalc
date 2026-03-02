@@ -69,6 +69,7 @@ export default function AgePage() {
             />
             <div className="divide-y divide-cream-200">
               <ResultRow label={t('totalDays')} value={formatNumber(result.totalDays, 0)} />
+              <ResultRow label={t('totalHours')} value={formatNumber(result.totalHours, 0)} />
               <ResultRow label={t('totalWeeks')} value={formatNumber(result.totalWeeks, 0)} />
               <ResultRow label={t('totalMonths')} value={formatNumber(result.totalMonths, 0)} />
             </div>

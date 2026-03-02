@@ -1,0 +1,14 @@
+{
+  "title": "宽高比计算器",
+  "metaDescription": "根据任意宽高比计算图像和视频尺寸。支持 16:9、4:3、21:9 及自定义比例。",
+  "selectRatio": "选择比例",
+  "customRatio": "自定义比例",
+  "ratioWidth": "比例宽",
+  "ratioHeight": "比例高",
+  "enterDimension": "输入尺寸",
+  "width": "宽度",
+  "height": "高度",
+  "calculatedWidth": "宽度",
+  "calculatedHeight": "高度",
+  "decimalRatio": "小数比"
+}

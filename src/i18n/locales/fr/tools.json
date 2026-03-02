@@ -27,6 +27,10 @@
     "name": "Calculateur de pourboire",
     "description": "Calculez le pourboire et partagez l\u2019addition entre plusieurs personnes"
   },
+  "aspect-ratio": {
+    "name": "Rapport d'Aspect",
+    "description": "Calculez les dimensions à partir de n'importe quel rapport d'aspect"
+  },
   "units": {
     "name": "Convertisseur d\u2019unit\u00e9s",
     "description": "Convertissez entre longueur, poids, volume et temp\u00e9rature"

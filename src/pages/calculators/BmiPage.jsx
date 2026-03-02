@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import ToolPageWrapper from '../../components/shared/ToolPageWrapper'
 import Card from '../../components/ui/Card'
@@ -10,6 +11,7 @@ import { formatNumber } from '../../utils/formatting'
 
 export default function BmiPage() {
   const { t } = useTranslation('bmi')
+  const location = useLocation()
 
   const [system, setSystem] = useState('metric')
   const [heightCm, setHeightCm] = useState('')
@@ -17,6 +19,18 @@ export default function BmiPage() {
   const [feet, setFeet] = useState('')
   const [inches, setInches] = useState('')
   const [pounds, setPounds] = useState('')
+
+  useEffect(() => {
+    const p = location.state?.prefill
+    if (!p) return
+    if (p.system) setSystem(p.system)
+    if (p.heightCm != null) setHeightCm(p.heightCm)
+    if (p.weightKg != null) setWeightKg(p.weightKg)
+    if (p.feet != null) setFeet(p.feet)
+    if (p.inches != null) setInches(p.inches)
+    if (p.pounds != null) setPounds(p.pounds)
+    window.history.replaceState({}, '')
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   let bmi = null
   if (system === 'metric' && heightCm && weightKg) {

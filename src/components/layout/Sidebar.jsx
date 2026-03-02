@@ -11,7 +11,7 @@ export default function Sidebar() {
   const linkClass = ({ isActive }) =>
     `flex items-center gap-3 px-3 py-2 rounded-lg text-sm transition-all duration-200 ${
       isActive
-        ? 'bg-teal-accent/15 text-teal-glow font-semibold'
+        ? 'bg-sunset-light/15 text-sunset-glow font-semibold'
         : 'text-ink-400 hover:text-cream-100 hover:bg-white/5'
     }`
 

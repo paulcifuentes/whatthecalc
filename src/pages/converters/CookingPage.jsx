@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import ToolPageWrapper from '../../components/shared/ToolPageWrapper'
 import Card from '../../components/ui/Card'
@@ -10,10 +11,20 @@ import { formatNumber } from '../../utils/formatting'
 
 export default function CookingPage() {
   const { t } = useTranslation('cooking')
+  const location = useLocation()
 
   const [value, setValue] = useState('')
   const [fromUnit, setFromUnit] = useState('cup')
   const [toUnit, setToUnit] = useState('ml')
+
+  useEffect(() => {
+    const p = location.state?.prefill
+    if (!p) return
+    if (p.value != null) setValue(p.value)
+    if (p.fromUnit) setFromUnit(p.fromUnit)
+    if (p.toUnit) setToUnit(p.toUnit)
+    window.history.replaceState({}, '')
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   const volumeOpts = volumeUnits.map((u) => ({ value: u, label: t(`units.${u}`) }))
   const weightOpts = weightUnits.map((u) => ({ value: u, label: t(`units.${u}`) }))

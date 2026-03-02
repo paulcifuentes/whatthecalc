@@ -27,6 +27,10 @@
     "name": "Tip Calculator",
     "description": "Calculate tip and split the bill between people"
   },
+  "aspect-ratio": {
+    "name": "Aspect Ratio",
+    "description": "Calculate dimensions from any aspect ratio"
+  },
   "units": {
     "name": "Unit Converter",
     "description": "Convert between length, weight, volume, and temperature"

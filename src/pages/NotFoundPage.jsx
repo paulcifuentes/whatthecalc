@@ -15,7 +15,7 @@ export default function NotFoundPage() {
       <p className="text-ink-400">{t('notFound.description')}</p>
       <Link
         to={`/${lang || 'en'}`}
-        className="inline-flex items-center gap-2 mt-4 px-6 py-2.5 bg-gradient-to-r from-teal-accent to-teal-light text-white rounded-xl hover:shadow-lg hover:shadow-teal-accent/25 transition-all font-medium"
+        className="inline-flex items-center gap-2 mt-4 px-6 py-2.5 bg-sunset-50 text-sunset rounded-xl hover:bg-sunset-glow transition-all font-medium"
       >
         <ArrowLeft className="w-4 h-4" />
         {t('notFound.backHome')}

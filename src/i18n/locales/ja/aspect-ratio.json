@@ -1,0 +1,14 @@
+{
+  "title": "アスペクト比計算",
+  "metaDescription": "任意のアスペクト比から画像や動画のサイズを計算。16:9、4:3、21:9、カスタム比率に対応。",
+  "selectRatio": "比率を選択",
+  "customRatio": "カスタム比率",
+  "ratioWidth": "比率 幅",
+  "ratioHeight": "比率 高さ",
+  "enterDimension": "サイズを入力",
+  "width": "幅",
+  "height": "高さ",
+  "calculatedWidth": "幅",
+  "calculatedHeight": "高さ",
+  "decimalRatio": "小数比"
+}

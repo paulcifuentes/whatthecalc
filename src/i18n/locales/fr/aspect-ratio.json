@@ -1,0 +1,14 @@
+{
+  "title": "Calculateur de Rapport d'Aspect",
+  "metaDescription": "Calculez les dimensions d'image et de vidéo à partir de n'importe quel rapport d'aspect. Supporte 16:9, 4:3, 21:9 et des rapports personnalisés.",
+  "selectRatio": "Sélectionner le Rapport",
+  "customRatio": "Rapport Personnalisé",
+  "ratioWidth": "Largeur R",
+  "ratioHeight": "Hauteur R",
+  "enterDimension": "Entrez une Dimension",
+  "width": "Largeur",
+  "height": "Hauteur",
+  "calculatedWidth": "Largeur",
+  "calculatedHeight": "Hauteur",
+  "decimalRatio": "Ratio Décimal"
+}

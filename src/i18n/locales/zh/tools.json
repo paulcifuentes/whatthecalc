@@ -27,6 +27,10 @@
     "name": "小费计算器",
     "description": "计算小费并在多人之间分摊账单"
   },
+  "aspect-ratio": {
+    "name": "宽高比计算",
+    "description": "根据任意宽高比计算尺寸"
+  },
   "units": {
     "name": "单位转换器",
     "description": "在长度、重量、体积和温度之间进行转换"

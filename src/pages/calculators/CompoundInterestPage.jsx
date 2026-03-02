@@ -53,10 +53,10 @@ export default function CompoundInterestPage() {
         />
       </Card>
 
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
         <ResultCard label={t('futureValue')} value={formatCurrency(result.futureValue)} color="green" />
         <ResultCard label={t('totalContributions')} value={formatCurrency(result.totalContributions)} color="blue" />
-        <ResultCard label={t('totalInterest')} value={formatCurrency(result.totalInterest)} color="blue" />
+        <ResultCard label={t('totalInterest')} value={formatCurrency(result.totalInterest)} color="violet" />
       </div>
 
       {result.data.length > 1 && (
@@ -66,21 +66,21 @@ export default function CompoundInterestPage() {
               <AreaChart data={result.data} margin={{ top: 5, right: 5, bottom: 5, left: 5 }}>
                 <defs>
                   <linearGradient id="balanceGrad" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0%" stopColor="#0d9488" stopOpacity={0.3} />
-                    <stop offset="100%" stopColor="#0d9488" stopOpacity={0.02} />
+                    <stop offset="0%" stopColor="#2ee8c0" stopOpacity={0.3} />
+                    <stop offset="100%" stopColor="#2ee8c0" stopOpacity={0.02} />
                   </linearGradient>
                   <linearGradient id="contribGrad" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0%" stopColor="#8892a8" stopOpacity={0.2} />
-                    <stop offset="100%" stopColor="#8892a8" stopOpacity={0.02} />
+                    <stop offset="0%" stopColor="#5e7796" stopOpacity={0.2} />
+                    <stop offset="100%" stopColor="#5e7796" stopOpacity={0.02} />
                   </linearGradient>
                 </defs>
-                <CartesianGrid strokeDasharray="3 3" stroke="#e5e2db" />
-                <XAxis dataKey="year" tick={{ fontSize: 12, fill: '#5a6882' }} label={{ value: t('year'), position: 'insideBottom', offset: -2, fontSize: 12, fill: '#5a6882' }} />
-                <YAxis tick={{ fontSize: 12, fill: '#5a6882' }} tickFormatter={(v) => `$${(v / 1000).toFixed(0)}k`} />
-                <Tooltip formatter={(v) => formatCurrency(v)} contentStyle={{ borderRadius: '12px', border: '1px solid #e5e2db', boxShadow: '0 4px 12px rgba(0,0,0,0.06)' }} />
+                <CartesianGrid strokeDasharray="3 3" stroke="#ebebef" />
+                <XAxis dataKey="year" tick={{ fontSize: 12, fill: '#5e7796' }} label={{ value: t('year'), position: 'insideBottom', offset: -2, fontSize: 12, fill: '#5e7796' }} />
+                <YAxis tick={{ fontSize: 12, fill: '#5e7796' }} tickFormatter={(v) => `$${(v / 1000).toFixed(0)}k`} />
+                <Tooltip formatter={(v) => formatCurrency(v)} contentStyle={{ borderRadius: '12px', border: '1px solid #ebebef', boxShadow: '0 4px 12px rgba(0,0,0,0.06)' }} />
                 <Legend />
-                <Area type="monotone" dataKey="balance" name={t('chartBalance')} stroke="#0d9488" fill="url(#balanceGrad)" strokeWidth={2.5} />
-                <Area type="monotone" dataKey="contributions" name={t('chartContributions')} stroke="#8892a8" fill="url(#contribGrad)" strokeWidth={2} />
+                <Area type="monotone" dataKey="balance" name={t('chartBalance')} stroke="#2ee8c0" fill="url(#balanceGrad)" strokeWidth={2.5} />
+                <Area type="monotone" dataKey="contributions" name={t('chartContributions')} stroke="#5e7796" fill="url(#contribGrad)" strokeWidth={2} />
               </AreaChart>
             </ResponsiveContainer>
           </div>

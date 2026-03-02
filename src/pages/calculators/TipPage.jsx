@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import ToolPageWrapper from '../../components/shared/ToolPageWrapper'
 import Card from '../../components/ui/Card'
@@ -11,10 +12,20 @@ const presetTips = [10, 15, 18, 20, 25]
 
 export default function TipPage() {
   const { t } = useTranslation('tip')
+  const location = useLocation()
   const [bill, setBill] = useState('')
   const [tipPct, setTipPct] = useState(18)
   const [customTip, setCustomTip] = useState('')
   const [people, setPeople] = useState('1')
+
+  useEffect(() => {
+    const p = location.state?.prefill
+    if (!p) return
+    if (p.bill != null) setBill(p.bill)
+    if (p.customTip != null) setCustomTip(p.customTip)
+    if (p.people != null) setPeople(p.people)
+    window.history.replaceState({}, '')
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   const activeTip = customTip !== '' ? Number(customTip) : tipPct
   const result = calculateTip(bill, activeTip, people)
@@ -45,7 +56,7 @@ export default function TipPage() {
                   onClick={() => { setTipPct(pct); setCustomTip('') }}
                   className={`px-4 py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 ${
                     customTip === '' && tipPct === pct
-                      ? 'bg-gradient-to-r from-teal-accent to-teal-light text-white shadow-sm shadow-teal-accent/20'
+                      ? 'bg-sunset-50 text-sunset'
                       : 'bg-cream-200/70 text-ink-600 hover:bg-cream-200'
                   }`}
                 >

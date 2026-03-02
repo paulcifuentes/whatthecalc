@@ -27,6 +27,10 @@
     "name": "Calculadora de Propinas",
     "description": "Calcula la propina y divide la cuenta entre varias personas"
   },
+  "aspect-ratio": {
+    "name": "Relación de Aspecto",
+    "description": "Calcula dimensiones a partir de cualquier relación de aspecto"
+  },
   "units": {
     "name": "Conversor de Unidades",
     "description": "Convierte entre longitud, peso, volumen y temperatura"

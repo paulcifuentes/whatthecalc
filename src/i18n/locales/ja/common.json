@@ -7,7 +7,12 @@
   },
   "home": {
     "title": "何を計算しますか？",
-    "subtitle": "ツールを選んで、すぐに答えを得ましょう。"
+    "subtitle": "ツールを選んで、すぐに答えを得ましょう。",
+    "placeholder": "何を計算したいですか？",
+    "listening": "聞いています...",
+    "noResults": "一致するツールが見つかりません",
+    "popular": "人気のツール",
+    "valuesDetected": "値を検出"
   },
   "footer": {
     "copyright": "What The Calc"

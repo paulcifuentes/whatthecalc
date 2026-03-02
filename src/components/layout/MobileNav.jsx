@@ -34,7 +34,7 @@ export default function MobileNav() {
               className={
                 `flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-[13px] font-medium whitespace-nowrap shrink-0 transition-all duration-200 ${
                   isActive
-                    ? 'bg-teal-accent text-white shadow-sm shadow-teal-accent/20'
+                    ? 'bg-sunset-50 text-sunset shadow-sm'
                     : 'bg-cream-200/70 text-ink-500 hover:bg-cream-200 hover:text-ink-700'
                 }`
               }

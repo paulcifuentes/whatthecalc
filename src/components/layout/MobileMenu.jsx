@@ -12,7 +12,7 @@ export default function MobileMenu({ isOpen, onClose }) {
   const linkClass = ({ isActive }) =>
     `flex items-center gap-3 px-4 py-2.5 rounded-xl text-sm transition-all duration-200 ${
       isActive
-        ? 'bg-teal-accent/15 text-teal-glow font-semibold'
+        ? 'bg-sunset-light/15 text-sunset-glow font-semibold'
         : 'text-ink-400 hover:text-cream-100 hover:bg-white/5'
     }`
 
@@ -22,8 +22,8 @@ export default function MobileMenu({ isOpen, onClose }) {
       <div className="absolute left-0 top-0 bottom-0 w-72 bg-gradient-to-b from-ink-900 to-ink-800 shadow-2xl overflow-y-auto">
         <div className="flex items-center justify-between p-4 border-b border-white/8">
           <div className="flex items-center gap-2.5">
-            <div className="w-8 h-8 bg-gradient-to-br from-teal-accent to-teal-light rounded-xl flex items-center justify-center">
-              <Sparkles className="w-4 h-4 text-white" />
+            <div className="w-8 h-8 bg-gradient-to-br from-sunset to-sunset-light rounded-xl flex items-center justify-center">
+              <Sparkles className="w-4 h-4 text-ink-900" />
             </div>
             <span className="font-display text-lg text-cream-50">WhatTheCalc</span>
           </div>

@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import ToolPageWrapper from '../../components/shared/ToolPageWrapper'
 import Card from '../../components/ui/Card'
@@ -9,6 +10,7 @@ import { formatNumber, formatPercent } from '../../utils/formatting'
 
 export default function PercentagePage() {
   const { t } = useTranslation('percentage')
+  const location = useLocation()
 
   const [pct1, setPct1] = useState('')
   const [val1, setVal1] = useState('')
@@ -18,6 +20,18 @@ export default function PercentagePage() {
 
   const [from3, setFrom3] = useState('')
   const [to3, setTo3] = useState('')
+
+  useEffect(() => {
+    const p = location.state?.prefill
+    if (!p) return
+    if (p.pct1 != null) setPct1(p.pct1)
+    if (p.val1 != null) setVal1(p.val1)
+    if (p.val2 != null) setVal2(p.val2)
+    if (p.total2 != null) setTotal2(p.total2)
+    if (p.from3 != null) setFrom3(p.from3)
+    if (p.to3 != null) setTo3(p.to3)
+    window.history.replaceState({}, '')
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   const result1 = pct1 !== '' && val1 !== '' ? whatIsXPercentOfY(Number(pct1), Number(val1)) : null
   const result2 = val2 !== '' && total2 !== '' ? xIsWhatPercentOfY(Number(val2), Number(total2)) : null

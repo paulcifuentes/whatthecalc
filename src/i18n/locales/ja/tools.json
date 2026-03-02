@@ -27,6 +27,10 @@
     "name": "チップ計算",
     "description": "チップの金額を計算し、割り勘もできる"
   },
+  "aspect-ratio": {
+    "name": "アスペクト比計算",
+    "description": "任意のアスペクト比からサイズを計算"
+  },
   "units": {
     "name": "単位変換",
     "description": "長さ、重さ、体積、温度の単位を変換"

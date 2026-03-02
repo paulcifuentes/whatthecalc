@@ -7,7 +7,12 @@
   },
   "home": {
     "title": "¿Qué necesitas calcular?",
-    "subtitle": "Elige una herramienta y obtén tu respuesta al instante."
+    "subtitle": "Elige una herramienta y obtén tu respuesta al instante.",
+    "placeholder": "¿Qué quieres calcular?",
+    "listening": "Escuchando...",
+    "noResults": "No se encontraron herramientas",
+    "popular": "Herramientas populares",
+    "valuesDetected": "Valores detectados"
   },
   "footer": {
     "copyright": "What The Calc"

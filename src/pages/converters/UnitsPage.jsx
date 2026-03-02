@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import ToolPageWrapper from '../../components/shared/ToolPageWrapper'
 import Card from '../../components/ui/Card'
@@ -21,11 +22,22 @@ const converters = {
 
 export default function UnitsPage() {
   const { t } = useTranslation('units')
+  const location = useLocation()
 
   const [tab, setTab] = useState('length')
   const [value, setValue] = useState('')
   const [fromUnit, setFromUnit] = useState('cm')
   const [toUnit, setToUnit] = useState('m')
+
+  useEffect(() => {
+    const p = location.state?.prefill
+    if (!p) return
+    if (p.tab) setTab(p.tab)
+    if (p.value != null) setValue(p.value)
+    if (p.fromUnit) setFromUnit(p.fromUnit)
+    if (p.toUnit) setToUnit(p.toUnit)
+    window.history.replaceState({}, '')
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   const handleTabChange = (newTab) => {
     setTab(newTab)

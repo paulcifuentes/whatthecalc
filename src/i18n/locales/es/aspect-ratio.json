@@ -1,0 +1,14 @@
+{
+  "title": "Calculadora de Relación de Aspecto",
+  "metaDescription": "Calcula las dimensiones de imagen y video a partir de cualquier relación de aspecto. Compatible con 16:9, 4:3, 21:9 y proporciones personalizadas.",
+  "selectRatio": "Seleccionar Proporción",
+  "customRatio": "Proporción Personalizada",
+  "ratioWidth": "Ancho R",
+  "ratioHeight": "Alto R",
+  "enterDimension": "Ingresa una Dimensión",
+  "width": "Ancho",
+  "height": "Alto",
+  "calculatedWidth": "Ancho",
+  "calculatedHeight": "Alto",
+  "decimalRatio": "Ratio Decimal"
+}

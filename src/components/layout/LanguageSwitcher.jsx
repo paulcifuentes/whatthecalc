@@ -23,8 +23,8 @@ export default function LanguageSwitcher({ variant = 'light' }) {
         onChange={handleChange}
         className={`text-sm border rounded-lg px-2 py-1.5 focus:outline-none cursor-pointer transition-colors ${
           isDark
-            ? 'bg-white/5 text-ink-300 border-white/10 hover:border-white/20 focus:border-teal-accent'
-            : 'bg-cream-50 text-ink-700 border-cream-200 hover:border-ink-300 focus:border-teal-accent'
+            ? 'bg-white/5 text-ink-300 border-white/10 hover:border-white/20 focus:border-sunset'
+            : 'bg-cream-50 text-ink-700 border-cream-200 hover:border-ink-300 focus:border-sunset'
         }`}
         aria-label="Language"
       >

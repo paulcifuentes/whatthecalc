@@ -18,10 +18,11 @@ export function calculateAge(dob, asOf) {
   }
 
   const totalDays = Math.floor((now - birth) / (1000 * 60 * 60 * 24))
+  const totalHours = totalDays * 24
   const totalWeeks = Math.floor(totalDays / 7)
   const totalMonths = years * 12 + months
 
-  return { years, months, days, totalDays, totalWeeks, totalMonths }
+  return { years, months, days, totalDays, totalHours, totalWeeks, totalMonths }
 }
 
 export function daysUntilNextBirthday(dob, asOf) {
